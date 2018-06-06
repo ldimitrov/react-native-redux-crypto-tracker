@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import connect from 'react-redux';
+import { connect } from 'react-redux';
 import { View, Text } from 'react-native';
 
 class CryptoContainer extends Component {
@@ -18,4 +18,4 @@ function mapStateToProps(state) {
     }
 }
 
-export default connect(mapStateToProps)(CryptoContainer);
+export default connect(mapStateToProps)(CryptoContainer)
