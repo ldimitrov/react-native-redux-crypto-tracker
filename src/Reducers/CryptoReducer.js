@@ -11,8 +11,8 @@ const initialState = {
     errorMessage: null,
 };
 
-export default function (state = initialState, action) {
-    switch (action.type) {
+export default function(state = initialState, action) {
+    switch(action.type) {
         case FETCHING_COIN_DATA:
             return Object.assign({}, state, {
                 isFetching: true,
@@ -36,7 +36,7 @@ export default function (state = initialState, action) {
                 hasError: true,
                 errorMessage: action.err
             });
-
+    
         default:
             return state;
     }

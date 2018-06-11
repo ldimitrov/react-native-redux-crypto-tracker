@@ -1,5 +1,5 @@
-import { Platform } from 'react-native';
-import {
+import { Platform } from 'react-native';    
+import { 
     createStore,
     applyMiddleware,
     compose
@@ -11,12 +11,12 @@ import logger from 'redux-logger';
 
 import RootReducer from './Reducers';
 
-const middleware = applyMiddleware(thunk, promise, logger);
+const middleware = applyMiddleware(promise, thunk);
 
 const Store = createStore(
     RootReducer,
     compose(
-        middleware,
+        middleware,       
         devTools({
             name: Platform.OS,
             hostname: 'localhost',
