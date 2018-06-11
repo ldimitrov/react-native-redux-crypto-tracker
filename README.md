@@ -3,8 +3,7 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 # Screenshot
-![Tracker](https://github.com/ldimitrov/react-native-redux-crypto-tracker/blob/master/screen.png =300x531)
-
+<img src="https://github.com/ldimitrov/react-native-redux-crypto-tracker/blob/master/screen.png" height="531" width="300">
 
 ## Table of Contents
 
