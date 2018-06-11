@@ -1,29 +1,30 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-navigation'
 
 const Header = () => {    
     return (
-        <View style={headerContainer}>
+        <SafeAreaView style={styles.safeArea}>
             <Text style={header}>
-                Cryptocurrency App
+                Cryptocurrency Tracker
             </Text>
-        </View>
+        </SafeAreaView>
     )
 }
 
 const styles = StyleSheet.create({
-    headerContainer: {
-        display: "flex",
-        marginTop: 55,
-        alignItems: "center",
-    },
     header: {
         fontWeight: "bold",        
-        fontSize: 20,
-    }
+        fontSize: 25,
+        color: 'white'
+    },
+    safeArea: {
+        alignItems: "center",
+        backgroundColor: 'rgb(39,63,91)'
+      }
 })
 
-const { headerContainer, header } = styles;
+const { safeArea, header } = styles;
 
 
 export default Header;
