@@ -21,7 +21,7 @@
   "devDependencies": {
     "jest-expo": "^21.0.2",
     "react-native-debugger-open": "^0.3.15",
-    "react-native-scripts": "1.5.0",
+    "react-native-scripts": "1.14.1",
     "react-test-renderer": "16.0.0-alpha.12",
     "redux-logger": "^3.0.6",
     "remote-redux-devtools": "^0.5.12",
